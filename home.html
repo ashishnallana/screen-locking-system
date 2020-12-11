@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/mystyle.css">
+    <title>Password System</title>
+</head>
+
+<body>
+
+
+
+    <section id="set-lock">
+        <h3>Set lock</h3>
+
+        <input type="number" id="set-screen" placeholder="Enter your PIN">
+
+        <div class="lock-btn">
+            <button class="p-btn">1</button>
+            <button class="p-btn">2</button>
+            <button class="p-btn">3</button>
+            <button class="p-btn">4</button>
+            <button class="p-btn">5</button>
+            <button class="p-btn">6</button>
+            <button class="p-btn">7</button>
+            <button class="p-btn">8</button>
+            <button class="p-btn">9</button>
+            <button class="p-btn">0</button>
+            <button id="lock-btn">lock</button>
+            <button id="set-r-digit">x</button>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="open-lock">
+        <input type="number" id="open-screen" placeholder="Enter your PIN">
+        <div class="lock-btn">
+            <button class="u-btn">1</button>
+            <button class="u-btn">2</button>
+            <button class="u-btn">3</button>
+            <button class="u-btn">4</button>
+            <button class="u-btn">5</button>
+            <button class="u-btn">6</button>
+            <button class="u-btn">7</button>
+            <button class="u-btn">8</button>
+            <button class="u-btn">9</button>
+            <button class="u-btn">0</button>
+            <button id="go-btn">Go</button>
+            <button id="open-r-digit">x</button>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="unlocked">
+        <button id="lock">Lock screen</button>
+        <h1>Your Device is Unlocked</h1>
+        <button id="new-lock-btn">Set new Lock</button>
+    </section>
+
+
+
+    <script src="code.js"></script>
+</body>
+
+</html>
